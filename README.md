@@ -9,7 +9,7 @@ Set of custom loggers for Monolog in Laravel.
     <a href="LICENSE"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/license?format=flat-square" alt="License" /></a>
 </p>
 <p align="center">
-    <a href="https://styleci.io/repos/82566268"><img src="https://styleci.io/repos/82566268/shield" alt="StyleCI" /></a>
+    <a href="https://styleci.io/repos/274123087"><img src="https://styleci.io/repos/274123087/shield" alt="StyleCI" /></a>
     <a href="https://scrutinizer-ci.com/g/andrey-helldar/laravel-logger-channels"><img src="https://scrutinizer-ci.com/g/andrey-helldar/laravel-logger-channels/badges/quality-score.png?b=master" alt="Code Quality" /></a>
     <a href="https://scrutinizer-ci.com/g/andrey-helldar/laravel-logger-channels"><img src="https://scrutinizer-ci.com/g/andrey-helldar/laravel-logger-channels/badges/build.png?b=master" alt="Build Quality" /></a>
 </p>
@@ -85,3 +85,9 @@ return [
 
 - [Andrey Helldar][link_author]
 - [![All contributors][badge_contributors]][link_contributors]
+
+
+[badge_contributors]:   https://img.shields.io/github/contributors/andrey-helldar/laravel-logger-channels?style=flat-square
+
+[link_author]:          https://github.com/andrey-helldar
+[link_contributors]:    https://github.com/andrey-helldar/laravel-logger-channels/graphs/contributors
