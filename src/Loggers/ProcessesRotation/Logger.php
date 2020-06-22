@@ -25,7 +25,7 @@ class Logger
     {
         return new RotatingFileHandler(
             $this->getConfigPath($config),
-            $this->getConfigDays($config),
+            $this->getConfigMaxFiles($config),
             $this->level($config),
             $this->getConfigBubble($config),
             $this->getConfigPermission($config),
@@ -63,9 +63,9 @@ class Logger
         return $config['path'] ?? null;
     }
 
-    protected function getConfigDays(array $config): int
+    protected function getConfigMaxFiles(array $config): int
     {
-        return $config['days'] ?? 7;
+        return $config['max_files'] ?? 30;
     }
 
     protected function getConfigBubble(array $config): bool

@@ -6,14 +6,14 @@ use Helldar\LaravelLoggerChannels\Loggers\Common\LogFormatter;
 
 class DifferentLogsChannel
 {
-    public static function get(string $path, int $days = 14): array
+    public static function get(string $path, int $max_files = 30): array
     {
         return [
-            'driver' => 'custom',
-            'via'    => Logger::class,
-            'tap'    => [LogFormatter::class],
-            'path'   => $path,
-            'days'   => $days,
+            'driver'    => 'custom',
+            'via'       => Logger::class,
+            'tap'       => [LogFormatter::class],
+            'path'      => $path,
+            'max_files' => $max_files,
         ];
     }
 }
