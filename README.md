@@ -6,12 +6,10 @@ Set of custom loggers for Monolog in Laravel.
     <a href="https://packagist.org/packages/andrey-helldar/laravel-logger-channels"><img src="https://img.shields.io/packagist/dt/andrey-helldar/laravel-logger-channels.svg?style=flat-square" alt="Total Downloads" /></a>
     <a href="https://packagist.org/packages/andrey-helldar/laravel-logger-channels"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/v/stable?format=flat-square" alt="Latest Stable Version" /></a>
     <a href="https://packagist.org/packages/andrey-helldar/laravel-logger-channels"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/v/unstable?format=flat-square" alt="Latest Unstable Version" /></a>
-    <a href="LICENSE"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/license?format=flat-square" alt="License" /></a>
 </p>
 <p align="center">
     <a href="https://styleci.io/repos/274123087"><img src="https://styleci.io/repos/274123087/shield" alt="StyleCI" /></a>
-    <a href="https://scrutinizer-ci.com/g/andrey-helldar/laravel-logger-channels"><img src="https://scrutinizer-ci.com/g/andrey-helldar/laravel-logger-channels/badges/quality-score.png?b=master" alt="Code Quality" /></a>
-    <a href="https://scrutinizer-ci.com/g/andrey-helldar/laravel-logger-channels"><img src="https://scrutinizer-ci.com/g/andrey-helldar/laravel-logger-channels/badges/build.png?b=master" alt="Build Quality" /></a>
+    <a href="LICENSE"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/license?format=flat-square" alt="License" /></a>
 </p>
 
 
