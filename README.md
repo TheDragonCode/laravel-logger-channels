@@ -78,6 +78,8 @@ return [
 ];
 ```
 
+In each case, one log file will be created for one session. The session label is taken from the global variable `LARAVEL_START`.
+
 
 ## Credits
 
