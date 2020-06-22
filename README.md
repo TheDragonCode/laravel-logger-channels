@@ -70,11 +70,11 @@ use Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation\Logger;
 return [
     'channels' => [
         'your_channel' => [
-            'driver'      => 'custom',
-            'via'         => Logger::class,
-            'tap'         => [LogFormatter::class],
-            'path'        => storage_path('logs/your-filename.log'),
-            'max_files'   => 30,
+            'driver' => 'custom',
+            'via'    => Logger::class,
+            'tap'    => [LogFormatter::class],
+            'path'   => storage_path('logs/your-filename.log'),
+            'days'   => 7,
         ]
     ]
 ];
