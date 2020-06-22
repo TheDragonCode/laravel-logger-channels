@@ -35,7 +35,7 @@ Instead, you may of course manually update your `require` block and run `compose
 ```json
 {
     "require": {
-        "andrey-helldar/laravel-logger-channels": "^1.0"
+        "andrey-helldar/laravel-logger-channels": "^1.1"
     }
 }
 ```
