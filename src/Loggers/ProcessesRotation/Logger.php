@@ -4,13 +4,13 @@ namespace Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation;
 
 use DateTime;
 use DateTimeInterface;
-use Helldar\LaravelLoggerChannels\Traits\LogConfiguration;
+use Helldar\LaravelLoggerChannels\Traits\Configurable;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger as Monolog;
 
 class Logger
 {
-    use LogConfiguration;
+    use Configurable;
 
     public function __invoke(array $config)
     {
@@ -58,8 +58,28 @@ class Logger
         return new DateTime();
     }
 
-    protected function getFallbackChannelName()
+    protected function getConfigPath(array $config): ?string
     {
-        return 'production';
+        return $config['path'] ?? null;
+    }
+
+    protected function getConfigDays(array $config): int
+    {
+        return $config['days'] ?? 7;
+    }
+
+    protected function getConfigBubble(array $config): bool
+    {
+        return (bool) ($config['bubble'] ?? true);
+    }
+
+    protected function getConfigPermission(array $config): ?int
+    {
+        return $config['permission'] ?? null;
+    }
+
+    protected function getConfigLocking(array $config): bool
+    {
+        return (bool) ($config['locking'] ?? false);
     }
 }

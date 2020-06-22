@@ -51,11 +51,11 @@ Add a new channel in file `config/logging.php` or modify an existing one using o
 
 1.
 ```php
-use Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation\ProcessIDChannel;
+use Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation\DifferentLogsChannel;
 
 return [
     'channels' => [
-        'your_channel' => ProcessIDChannel::get(
+        'your_channel' => DifferentLogsChannel::get(
             storage_path('logs/your-filename.log')
         )
     ]

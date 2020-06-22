@@ -5,7 +5,7 @@ namespace Helldar\LaravelLoggerChannels\Traits;
 use InvalidArgumentException;
 use Monolog\Logger as Monolog;
 
-trait LogConfiguration
+trait Configurable
 {
     /**
      * The Log levels.
@@ -28,7 +28,10 @@ trait LogConfiguration
      *
      * @return string
      */
-    abstract protected function getFallbackChannelName();
+    protected function getFallbackChannelName()
+    {
+        return 'production';
+    }
 
     /**
      * Parse the string level into a Monolog constant.
@@ -60,30 +63,5 @@ trait LogConfiguration
     protected function channelName(array $config)
     {
         return $config['name'] ?? $this->getFallbackChannelName();
-    }
-
-    protected function getConfigPath(array $config): ?string
-    {
-        return $config['path'] ?? null;
-    }
-
-    protected function getConfigDays(array $config): int
-    {
-        return $config['days'] ?? 7;
-    }
-
-    protected function getConfigBubble(array $config): bool
-    {
-        return (bool) ($config['bubble'] ?? true);
-    }
-
-    protected function getConfigPermission(array $config): ?int
-    {
-        return $config['permission'] ?? null;
-    }
-
-    protected function getConfigLocking(array $config): bool
-    {
-        return (bool) ($config['locking'] ?? false);
     }
 }

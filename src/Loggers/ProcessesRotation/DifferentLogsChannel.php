@@ -2,7 +2,7 @@
 
 namespace Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation;
 
-class ProcessIDChannel
+class DifferentLogsChannel
 {
     public static function get(string $path, int $days = 14): array
     {
