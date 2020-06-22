@@ -2,6 +2,8 @@
 
 namespace Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation;
 
+use Helldar\LaravelLoggerChannels\Loggers\Common\LogFormatter;
+
 class DifferentLogsChannel
 {
     public static function get(string $path, int $days = 14): array

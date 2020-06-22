@@ -64,8 +64,8 @@ return [
 
 2.
 ```php
+use Helldar\LaravelLoggerChannels\Loggers\Common\LogFormatter;
 use Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation\Logger;
-use Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation\LogFormatter;
 
 return [
     'channels' => [

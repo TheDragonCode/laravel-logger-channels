@@ -1,6 +1,6 @@
 <?php
 
-namespace Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation;
+namespace Helldar\LaravelLoggerChannels\Loggers\Common;
 
 use Monolog\Formatter\FormatterInterface;
 use Monolog\Formatter\LineFormatter;
