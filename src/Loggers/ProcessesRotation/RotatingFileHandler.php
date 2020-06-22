@@ -16,7 +16,7 @@ class RotatingFileHandler extends \Monolog\Handler\RotatingFileHandler
             $this->getConfigPath($config),
             $this->getConfigDays($config),
             $this->level($config),
-            $this->getBubble($config),
+            $this->getConfigBubble($config),
             $this->getConfigPermission($config),
             $this->getConfigLocking($config)
         );
