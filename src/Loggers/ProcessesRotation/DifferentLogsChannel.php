@@ -9,6 +9,7 @@ class DifferentLogsChannel
         return [
             'driver' => 'custom',
             'via'    => Logger::class,
+            'tap'    => [LogFormatter::class],
             'path'   => $path,
             'days'   => $days,
         ];
