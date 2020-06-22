@@ -65,12 +65,14 @@ return [
 2.
 ```php
 use Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation\Logger;
+use Helldar\LaravelLoggerChannels\Loggers\ProcessesRotation\LogFormatter;
 
 return [
     'channels' => [
         'your_channel' => [
             'driver' => 'custom',
             'via'    => Logger::class,
+            'tap'    => [LogFormatter::class],
             'path'   => storage_path('logs/your-filename.log'),
             'days'   => 14,
         ]
