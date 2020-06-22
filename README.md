@@ -82,6 +82,8 @@ return [
 
 In each case, one log file will be created for one session. The session label is taken from the global variable `LARAVEL_START`.
 
+![image](https://user-images.githubusercontent.com/10347617/85291286-fb2db600-b4a2-11ea-9e88-1e39d164309b.png)
+
 
 ## Credits
 
