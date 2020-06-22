@@ -36,8 +36,8 @@ trait LogConfiguration
      * @param  array  $config
      *
      * @throws \InvalidArgumentException
-     * @return int
      *
+     * @return int
      */
     protected function level(array $config)
     {
