@@ -17,7 +17,6 @@ Set of custom loggers for Monolog in Laravel.
 * [Installation](#installation)
 * [Using](#using)
     * [Processes Rotation](#processes-rotation)
-* [Credits](#credits)
 
 
 ## Installation
@@ -83,15 +82,3 @@ return [
 In each case, one log file will be created for one session. The session label is taken from the global variable `LARAVEL_START`.
 
 ![image](https://user-images.githubusercontent.com/10347617/85291286-fb2db600-b4a2-11ea-9e88-1e39d164309b.png)
-
-
-## Credits
-
-- [Andrey Helldar][link_author]
-- [![All contributors][badge_contributors]][link_contributors]
-
-
-[badge_contributors]:   https://img.shields.io/github/contributors/andrey-helldar/laravel-logger-channels?style=flat-square
-
-[link_author]:          https://github.com/andrey-helldar
-[link_contributors]:    https://github.com/andrey-helldar/laravel-logger-channels/graphs/contributors
