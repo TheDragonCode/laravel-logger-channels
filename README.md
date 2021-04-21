@@ -13,12 +13,6 @@ Set of custom loggers for Monolog in Laravel.
 </p>
 
 
-## Content
-* [Installation](#installation)
-* [Using](#using)
-    * [Processes Rotation](#processes-rotation)
-
-
 ## Installation
 
 To get the latest version of `Laravel Logger Channels`, simply require the project using [Composer](https://getcomposer.org/):
@@ -82,3 +76,16 @@ return [
 In each case, one log file will be created for one session. The session label is taken from the global variable `LARAVEL_START`.
 
 ![image](https://user-images.githubusercontent.com/10347617/85291286-fb2db600-b4a2-11ea-9e88-1e39d164309b.png)
+
+
+## License
+
+This package is licensed under the [MIT License](LICENSE).
+
+
+## For Enterprise
+
+Available as part of the Tidelift Subscription.
+
+
+The maintainers of `andrey-helldar/laravel-logger-channels` and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source packages you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact packages you use. [Learn more](https://tidelift.com/subscription/pkg/packagist-andrey-helldar-laravel-logger-channels?utm_source=undefined&utm_medium=referral&utm_campaign=enterprise&utm_term=repo).
