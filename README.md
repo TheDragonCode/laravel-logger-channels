@@ -2,6 +2,8 @@
 
 Set of custom loggers for Monolog in Laravel.
 
+<img src="https://preview.dragon-code.pro/TheDragonCode/logger-channels.svg?brand=laravel" alt="Laravel Logger Channels"/>
+
 <p align="center">
     <a href="https://packagist.org/packages/andrey-helldar/laravel-logger-channels"><img src="https://img.shields.io/packagist/dt/andrey-helldar/laravel-logger-channels.svg?style=flat-square" alt="Total Downloads" /></a>
     <a href="https://packagist.org/packages/andrey-helldar/laravel-logger-channels"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/v/stable?format=flat-square" alt="Latest Stable Version" /></a>
