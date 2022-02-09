@@ -10,7 +10,7 @@ class LogFormatter
     protected $dateFormat = 'Y-m-d H:i:s';
 
     /**
-     * @param  \Psr\Log\LoggerInterface  $logger
+     * @param \Psr\Log\LoggerInterface $logger
      */
     public function __invoke($logger)
     {

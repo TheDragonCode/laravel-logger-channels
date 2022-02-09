@@ -25,7 +25,7 @@ trait Leveleable
     /**
      * Parse the string level into a Monolog constant.
      *
-     * @param  array  $config
+     * @param array $config
      *
      * @throws \InvalidArgumentException
      *
