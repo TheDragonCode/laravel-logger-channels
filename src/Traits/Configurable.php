@@ -17,8 +17,6 @@ trait Configurable
     /**
      * Extract the log channel from the given configuration.
      *
-     * @param array $config
-     *
      * @return string
      */
     protected function channelName(array $config)
