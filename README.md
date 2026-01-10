@@ -2,15 +2,11 @@
 
 Set of custom loggers for Monolog in Laravel.
 
-<img src="https://preview.dragon-code.pro/TheDragonCode/logger-channels.svg?brand=laravel" alt="Laravel Logger Channels"/>
+![Logger Channels](https://banners.beyondco.de/Logger%20Channels.png?theme=light&packageManager=composer+require&packageName=andrey-helldar%2Flaravel-logger-channels&pattern=topography&style=style_2&description=by+The+Dragon+Code&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
 <p align="center">
     <a href="https://packagist.org/packages/andrey-helldar/laravel-logger-channels"><img src="https://img.shields.io/packagist/dt/andrey-helldar/laravel-logger-channels.svg?style=flat-square" alt="Total Downloads" /></a>
     <a href="https://packagist.org/packages/andrey-helldar/laravel-logger-channels"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/v/stable?format=flat-square" alt="Latest Stable Version" /></a>
-    <a href="https://packagist.org/packages/andrey-helldar/laravel-logger-channels"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/v/unstable?format=flat-square" alt="Latest Unstable Version" /></a>
-</p>
-<p align="center">
-    <a href="https://styleci.io/repos/274123087"><img src="https://styleci.io/repos/274123087/shield" alt="StyleCI" /></a>
     <a href="LICENSE"><img src="https://poser.pugx.org/andrey-helldar/laravel-logger-channels/license?format=flat-square" alt="License" /></a>
 </p>
 
